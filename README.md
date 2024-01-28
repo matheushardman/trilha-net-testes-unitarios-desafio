@@ -1,8 +1,7 @@
 # DIO - Trilha .NET - Testes Unitários com C#
-www.dio.me
+O desafio consiste em utilizar os aprendizados referentes aos Testes Unitários para implementá-los em duas classes já predefinidas visando melhorar a qualidade do código. Para isso utilizou-se o xUnit como ferramenta de teste unitário presente no .NET Framework.
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de Testes Unitários com C#, da trilha .NET da DIO.
+Este projeto foi desenvolvido como avaliação parcial do Bootcamp Decola Tech Avanade 2024 em parceria com a DIO, com o objetivo de praticar os conteúdos ensinados no Bootcamp.
 
 ## Contexto
 Você está trabalhando em um sistema, e seus gestores relataram que frequentemente há problemas no software: bugs, funcionalidades que estavam funcionando de repente não funcionam mais, problemas de validações, entre outros. Os clientes já começam a duvidar da qualidade do código.
@@ -78,4 +77,22 @@ O projeto está estruturado da seguinte maneira:
 
 
 ## Solução
-O código de testes está pela metade, e você deverá dar continuidade implementando os testes descritos acima, para que no final, tenhamos um programa de testes funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+A partir do código original fornecido implementou-se os testes unitários para as classes ValidacoesLista e ValidacoesString, foram construidos testes positivos e negativos (quando possível) para os métodos das classes utilizando o modelo Arrange, Act e Assert.
+
+Dentro da classe Assert utilizou-se os métodos Assert.Equal, Assert.True e Assert.False
+
+## Instruções de Uso
+
+1. Clonar o repositório atual para sua máquina local
+
+   `git clone https://github.com/matheushardman/trilha-net-testes-unitarios-desafio.git`
+
+2. Caso não tenha o .NET 6.0 ou superior instalado, certifique-se em instalar, você pode encontrá-lo em:
+
+   `https://dotnet.microsoft.com/pt-br/download/dotnet/6.0`
+
+3. Abra o terminal no seu projeto clonado utilizando sua IDE ou editor de código-fonte de preferência
+
+4. Na pasta principal do projeto, execute os testes com o seguinte comando
+
+   `dotnet test`
